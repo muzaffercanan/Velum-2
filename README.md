@@ -35,8 +35,12 @@ This repository contains the solutions for Homework 2 of the CS 440/540 Machine 
 - **Result:** Evaluated using MSE and R2 metrics.
 
 ### 4. Pairs Trading (Cointegration)
-- **Goal:** Implement a mean-reversion strategy using cointegrated stock pairs from S&P 500.
-- **Status:** *In progress / To be added.*
+- **Goal:** Implement a cointegration-based pairs trading strategy for SP500 stocks.
+- **Method:**
+  - Select stock pairs from SP500.
+  - Perform Cointegration tests to find mean-reverting pairs.
+  - Backtest the strategy with $100 capital per pair.
+- **Result:** Reported average profit over all possible pairs during the test period.
 
 ## 🛠️ Libraries Used
 - **Data Analysis:** `pandas`, `numpy`
